@@ -1,0 +1,11 @@
+spring:
+  r2dbc:
+    password: 314331
+    username: postgres
+    url: r2dbc:postgresql://localhost:5432/test_webflux
+  data:
+    r2dbc:
+      repositories:
+        enabled: true
+server:
+  port: 8080
